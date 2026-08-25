@@ -1,6 +1,5 @@
-// Difference: the placeholders are filled in - ProfileCard actually renders
-// the profile, App maps over the array, and there are three profiles rather
-// than one plus a comment.
+// ProfileCard displays a profile passed in as props, and App renders one
+// card per entry in the profiles array using .map().
 
 // ProfileCard.js
 import React from 'react';

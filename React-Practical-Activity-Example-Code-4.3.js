@@ -1,5 +1,5 @@
-// Difference: handleDeleteJob, JobList and JobItem are all implemented, and
-// the heading shows a live count of how many jobs are left.
+// State lives in App. Deleting a job filters it out of the array, and the
+// heading shows how many are left.
 
 // App.js
 import React, { useState } from 'react';

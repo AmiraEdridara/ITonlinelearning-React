@@ -1,5 +1,6 @@
-// Difference: the useRef version, with the timeout from the copy feedback
-// cleaned up in a useEffect so it cannot fire after the component has gone.
+// The useRef version. A password is generated as soon as the options
+// change, and the feedback timer is cleaned up in a useEffect so it cannot
+// fire after the component has gone.
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 

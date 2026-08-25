@@ -1,5 +1,6 @@
-// Difference: the same delete, written so the removed job can be logged -
-// useful when checking that the right card went.
+// Deleting a job, logging which one went - useful when checking that the
+// right card was removed.
+
 const deleteJob = (jobId) => {
   setJobs(prevJobs => {
     const removed = prevJobs.find(job => job.id === jobId);

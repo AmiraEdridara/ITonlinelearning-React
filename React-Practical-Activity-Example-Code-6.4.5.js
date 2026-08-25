@@ -1,5 +1,6 @@
-// Difference: the input takes a ref so the form can focus it again after a
-// job is added, plus a placeholder.
+// The text input, holding a ref so the form can focus it again after a job
+// is added.
+
 <input
   type="text"
   ref={activityInputRef}

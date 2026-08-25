@@ -1,6 +1,5 @@
-// Difference: an "Include Uppercase" option is added alongside numbers and
-// symbols, and the length slider reads its value as a number rather than a
-// string.
+// The layout and state for the generator, including an uppercase option
+// alongside numbers and symbols.
 
 import React, { useState } from 'react';
 

@@ -1,6 +1,5 @@
-// Difference: this is the version that keeps the raw string in state, so the
-// boxes can be cleared while typing. The numbers are converted once, at the
-// point of calculating, instead of on every keystroke.
+// The same calculator keeping the raw string in state, so a box can be
+// cleared while typing. The numbers are converted once, when calculating.
 
 import React, { useState } from 'react';
 import { calculateInvestment } from './util/investment';

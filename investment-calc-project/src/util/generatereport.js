@@ -1,7 +1,7 @@
 // Builds a plain text summary of the results and hands it to the browser as a
 // download.
 //
-// Difference from the course version: rather than pulling in a PDF library,
+// Note: rather than pulling in a PDF library,
 // this writes a text report with a Blob, so the project has no extra
 // dependency and still produces a file the user can keep.
 

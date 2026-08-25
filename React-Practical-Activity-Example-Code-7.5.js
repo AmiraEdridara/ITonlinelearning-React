@@ -1,6 +1,5 @@
-// Difference: the validity check covers every input rather than just the
-// duration, each input has a label, and the results table adds a row of
-// totals at the bottom.
+// The calculator with numbers held in state. Every input is validated, each
+// has a label, and the table finishes with a row of totals.
 
 import React, { useState } from 'react';
 import { calculateInvestment } from './util/investment';

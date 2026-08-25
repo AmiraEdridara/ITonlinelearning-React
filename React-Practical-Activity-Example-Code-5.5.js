@@ -1,6 +1,5 @@
-// Difference: the two handlers are implemented, the form clears itself after
-// a submit, and the submit button is disabled until a title and a category
-// have been chosen.
+// One state object holds the whole form. The handler replaces only the
+// field that changed, and the form clears itself after a submit.
 
 import React, { useState } from 'react';
 

@@ -1,5 +1,5 @@
-// Difference: the header takes its title as a prop with a default, so the
-// same component can be reused with a different heading.
+// The Header. It takes its title as a prop with a default, so the same
+// component can be reused with a different heading.
 
 import React from 'react';
 import logo from '../assets/investment-calculator-logo.png';

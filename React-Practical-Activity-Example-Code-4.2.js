@@ -1,6 +1,5 @@
-// Difference: JobList maps over the jobs, JobItem displays the job and
-// renders conditionally on status, and the Header shows a small text logo
-// instead of leaving a comment where one should go.
+// JobList maps over the jobs it is given, and JobItem renders a spinner or
+// a tick depending on the job status.
 
 // App.js
 import React from 'react';

@@ -1,5 +1,4 @@
-// Difference: the stylesheet is imported here and the other components are
-// actually placed, rather than left as a comment.
+// App, importing the stylesheet and placing the other components.
 
 import React from 'react';
 import Header from './components/Header';

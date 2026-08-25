@@ -1,5 +1,6 @@
-// Difference: the reset also puts the keyboard focus back in the text box,
-// so another job can be typed straight away.
+// Resetting the form, which also puts the keyboard focus back in the text
+// box ready for the next job.
+
 const resetForm = () => {
   setActivity('');
   setCategories([]);

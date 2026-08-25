@@ -1,5 +1,6 @@
-// Difference: an empty activity is rejected before anything is added, and the
-// updater form of setJobs is used.
+// Adding a job. Blank activities are rejected and the text is trimmed
+// before it is stored.
+
 const addJob = (e) => {
   e.preventDefault();
 

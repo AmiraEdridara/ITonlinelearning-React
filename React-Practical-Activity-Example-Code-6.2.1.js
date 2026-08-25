@@ -1,5 +1,6 @@
-// Difference: a text colour is set alongside each background so the labels
-// stay readable, and the keys match the category names used elsewhere.
+// The style objects, one per category, each with a text colour so the
+// labels stay readable.
+
 const categoryStyles = {
   readEmails: { backgroundColor: 'orange', color: '#1f2937' },
   sendEmails: { backgroundColor: 'yellow', color: '#1f2937' },

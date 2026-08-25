@@ -1,5 +1,4 @@
-/* Difference: the indentation is tidied up and a tagline rule is added to
-   match the extra line in the header component. */
+/* Header styles, including a rule for the tagline line. */
 
 #header {
   text-align: center;

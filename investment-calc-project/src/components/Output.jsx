@@ -1,4 +1,4 @@
-// Difference: the table has a totals row at the bottom summing up the final
+// Note: the table has a totals row at the bottom summing up the final
 // year, and the figures are formatted as currency rather than raw decimals.
 
 import React from 'react';

@@ -1,6 +1,6 @@
 // Works out what an investment is worth at the end of each year.
 //
-// Difference from the course version: this one also reports the invested
+// Note: this also reports the invested
 // capital for the year and guards against a duration of zero or less, so the
 // caller always gets an array back rather than something unexpected.
 

@@ -1,5 +1,6 @@
-/* Difference: the empty rule bodies are filled in with actual styles, and a
-   .tag.selected state is added so a chosen category can be shown. */
+/* Styles for every part of the form - container, input, category chips,
+   dropdown and submit button - including a .tag.selected state for a
+   chosen category. */
 
 .form-header {
   max-width: 520px;

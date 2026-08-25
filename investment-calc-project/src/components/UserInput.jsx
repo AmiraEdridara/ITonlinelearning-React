@@ -1,4 +1,4 @@
-// Difference: the four inputs are generated from an array rather than written
+// Note: the four inputs are generated from an array rather than written
 // out one at a time, and each one gets a proper label.
 
 import React from 'react';

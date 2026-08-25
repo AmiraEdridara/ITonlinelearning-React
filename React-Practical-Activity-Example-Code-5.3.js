@@ -1,6 +1,5 @@
-// Difference: JobColumn renders the jobs passed to it and shows a count next
-// to the heading, and App renders all three columns instead of one plus a
-// comment.
+// JobColumn renders the jobs passed to it and shows a count beside the
+// heading. App filters the jobs so each column only receives its own.
 
 // JobColumn.js
 import React from 'react';

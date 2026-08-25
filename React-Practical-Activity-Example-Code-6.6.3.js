@@ -1,5 +1,6 @@
-/* Difference: a small base rule is added underneath the three directives, so
-   the file shows where your own global styles belong. */
+/* The three Tailwind directives, with a base rule underneath showing where
+   your own global styles belong. */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

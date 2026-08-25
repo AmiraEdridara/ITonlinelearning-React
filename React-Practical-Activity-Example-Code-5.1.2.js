@@ -1,4 +1,5 @@
-// Difference: the input carries a label id and a maxLength.
+// The text input, with a label id and a maximum length.
+
 <input
   id="job-title"
   type="text"

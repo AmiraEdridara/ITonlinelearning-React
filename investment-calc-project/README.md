@@ -1,19 +1,23 @@
 # Investment Calculator
 
-The section 6 and 7 activity built out as a working Vite + React project.
+A Vite + React app that works out what an investment is worth at the end of
+each year, and writes a summary you can download.
 
-## What is different from the course version
+## How it works
 
-- `util/generatereport.js` writes a plain text summary using a `Blob` instead
-  of pulling in a PDF library, so the project installs with nothing beyond
+- `src/util/investments.js` does the maths. For each year it works out the
+  interest earned, the running investment value, the capital put in so far and
+  the total interest gained. A duration below one year returns an empty array.
+- `src/util/generatereport.js` builds a plain text summary and hands it to the
+  browser as a download using a `Blob`, so there is no extra dependency beyond
   React and Vite.
-- `calculateInvestment` also returns the invested capital for each year and
-  returns an empty array if the duration is less than one, rather than
-  producing odd output.
-- Every input is validated, not only the duration.
-- The results table has a totals row, and the figures are formatted as
-  currency with `Intl.NumberFormat`.
-- The header uses a text mark, so there is no image file to fetch.
+- `src/components/UserInput.jsx` generates its four labelled inputs from an
+  array, so adding a field means adding one entry.
+- `src/components/Output.jsx` renders the results table with a totals row, and
+  formats every figure as currency with `Intl.NumberFormat`.
+- `src/App.jsx` validates the whole form - the duration must be at least a
+  year and the expected return above zero - and only shows the table once the
+  figures make sense.
 
 ## Running it
 

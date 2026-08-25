@@ -1,5 +1,6 @@
-// Difference: the project is named after what it actually is, and the dev
-// server is started at the end so the setup can be checked straight away.
+// Setting up a Vite project with Tailwind, ending with the dev server so
+// the setup can be checked straight away.
+
 npm create vite@latest tailwind-card-app -- --template react
 cd tailwind-card-app
 npm install

@@ -1,5 +1,5 @@
-// Difference: blank activities are rejected and the text is trimmed before it
-// is stored.
+// Adding a job to state, which triggers the effect that saves it.
+
 const addJob = (e) => {
   e.preventDefault();
   if (activity.trim() === '') return;

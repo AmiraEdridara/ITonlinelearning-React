@@ -1,6 +1,5 @@
-// Difference: TicketInfo renders its image, its children and a count prop, so
-// the status board shows how many tickets are in each state rather than just
-// the label.
+// TicketInfo takes an image, a count and whatever is written between its
+// tags, which arrives as the children prop.
 
 // StatusBoard.js
 import React from 'react';

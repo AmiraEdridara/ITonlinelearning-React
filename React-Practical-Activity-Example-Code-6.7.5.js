@@ -1,5 +1,5 @@
-// Difference: shown in place in main.jsx, so it is clear where the import
-// belongs rather than being a line on its own.
+// main.jsx in full, so it is clear where the stylesheet import belongs.
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'

@@ -1,6 +1,5 @@
-// Difference: the off-by-one in the original character picker is fixed, the
-// uppercase option is honoured, and the generator refuses to run if every
-// option has been switched off.
+// passwordGenerator wrapped in useCallback. The picker indexes the string
+// directly, and the generator honours every option that is switched on.
 
 import React, { useState, useCallback } from 'react';
 

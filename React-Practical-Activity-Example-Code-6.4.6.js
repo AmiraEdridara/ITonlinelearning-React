@@ -1,6 +1,5 @@
-// Difference: the category and status inputs are filled in rather than left
-// as a comment, the text box is focused again after each add, and each column
-// shows its own count.
+// The whole job manager - text, category and status inputs, delete on each
+// card, and a count on every column.
 
 import React, { useState, useRef } from 'react';
 

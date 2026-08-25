@@ -1,6 +1,5 @@
-// Difference: the copy button gives real feedback - it changes to "Copied!"
-// for two seconds - which is the thing the original left as an optional
-// comment. It also refuses to copy an empty box.
+// Copy to clipboard, with feedback - the button reads "Copied!" for two
+// seconds - and it refuses to copy an empty box.
 
 import React, { useState, useCallback } from 'react';
 

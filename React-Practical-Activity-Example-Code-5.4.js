@@ -1,6 +1,5 @@
-// Difference: delete, status update and add are all implemented, and the
-// columns are rendered from an array of statuses rather than written out
-// three times.
+// Add, delete and update status, with the columns generated from an array
+// of statuses rather than written out three times.
 
 import React, { useState } from 'react';
 import JobColumn from './components/JobColumn';

@@ -1,5 +1,5 @@
-// Difference: the form is built out rather than left as a comment, and it is
-// labelled so it reads properly to a screen reader.
+// The whole form in one component - text input, category buttons, status
+// dropdown and submit - with a label so it reads properly to a screen reader.
 
 import React from 'react';
 

@@ -1,6 +1,5 @@
-// Difference: more than one category can be selected at a time, the buttons
-// are rendered from an array rather than written out three times, and
-// clicking a selected category clears it again.
+// More than one category can be selected at a time, and the buttons are
+// rendered from an array.
 
 import React, { useState } from 'react';
 

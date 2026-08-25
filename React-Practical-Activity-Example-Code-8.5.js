@@ -1,5 +1,5 @@
-// Difference: the navbar has real links and the main area holds a short list
-// of reviews, so the layout shell has something in it to style against.
+// The layout shell - a navbar with real links, and a main area holding a
+// short list of reviews to style against.
 
 import React from 'react';
 import './App.css';

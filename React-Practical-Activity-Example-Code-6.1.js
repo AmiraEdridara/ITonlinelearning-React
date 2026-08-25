@@ -1,6 +1,5 @@
-// Difference: handleCategoryToggle is implemented so categories can be turned
-// on and off, and the buttons take a className based on whether they are
-// selected instead of leaving a comment where the styling should go.
+// handleCategoryToggle adds a category to the array or takes it out again,
+// and each button takes its class from whether it is selected.
 
 import React, { useState } from 'react';
 

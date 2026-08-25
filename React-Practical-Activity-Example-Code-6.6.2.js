@@ -1,5 +1,6 @@
-// Difference: a couple of theme extensions are added, so the config shows
-// what "extend" is actually for rather than leaving it empty.
+// The Tailwind config, with a brand colour and a card radius added under
+// extend.
+
 module.exports = {
   content: [
     "./index.html",

@@ -1,5 +1,5 @@
-// Difference: the delete button carries an aria-label naming the job, and a
-// card with no categories does not render an empty row.
+// The job card, with an aria-label naming the job on its delete button.
+
 function JobCard({ job, deleteJob }) {
   return (
     <div className="job-card">

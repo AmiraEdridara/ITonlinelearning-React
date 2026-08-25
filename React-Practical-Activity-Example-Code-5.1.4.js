@@ -1,5 +1,6 @@
-// Difference: the options are mapped from an array, so a new status only has
-// to be added in one place.
+// The status dropdown, with its options mapped from an array so a new
+// status only has to be added in one place.
+
 const statuses = [
   { value: 'start', label: 'Start Process' },
   { value: 'running', label: 'Running' },

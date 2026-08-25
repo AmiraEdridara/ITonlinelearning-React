@@ -1,6 +1,6 @@
-// Difference: the form inputs are written out rather than left as a comment,
-// the storage key lives in one constant, a damaged stored value is handled,
-// and Clear All is hidden while there is nothing to clear.
+// The job manager with storage wired in. The key lives in one constant, a
+// damaged stored value is handled, and Clear All is hidden while there is
+// nothing to clear.
 
 import React, { useState, useEffect, useRef } from 'react';
 

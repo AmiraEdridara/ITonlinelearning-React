@@ -1,4 +1,4 @@
-// Difference: the inputs are validated as a whole rather than only checking
+// Note: the inputs are validated as a whole rather than only checking
 // the duration, and the report button writes a text summary instead of
 // needing a PDF library.
 

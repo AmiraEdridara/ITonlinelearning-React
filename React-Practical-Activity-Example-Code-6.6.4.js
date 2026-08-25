@@ -1,5 +1,5 @@
-// Difference: the card takes an onClick for its button, hides the image if
-// none was passed, and uses the custom brand colour from the Tailwind config.
+// A reusable Card. It takes an onClick for its button, hides the image if
+// none was passed, and uses the brand colour from the Tailwind config.
 
 import React from 'react';
 

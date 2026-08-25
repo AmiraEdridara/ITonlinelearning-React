@@ -1,6 +1,5 @@
-// Difference: the form inputs are written out instead of left as a comment,
-// each column shows how many cards it holds, and a column with nothing in it
-// says so rather than sitting empty.
+// Jobs are filtered by status into three columns. Each column shows how
+// many cards it holds, and says so when it is empty.
 
 import React, { useState } from 'react';
 

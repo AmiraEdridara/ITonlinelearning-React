@@ -1,5 +1,5 @@
-// Difference: a third card, an id on each one so the key is not the array
-// index, and a click handler that reports which card was pressed.
+// Three cards rendered from an array, each with an id used as its key and
+// a click handler reporting which one was pressed.
 
 import React from 'react';
 import Card from './components/Card';
