@@ -1,0 +1,72 @@
+/* Difference: the empty rule bodies are filled in with actual styles, and a
+   .tag.selected state is added so a chosen category can be shown. */
+
+.form-header {
+  max-width: 520px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e6ea;
+  border-radius: 10px;
+}
+
+.bot-input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ccd4da;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.form-details {
+  margin-bottom: 1rem;
+}
+
+.bottom-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
+  background-color: #f1f4f6;
+  border: 1px solid #d8dee3;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* the state a category button takes once it has been picked */
+.tag.selected {
+  background-color: #1f2937;
+  border-color: #1f2937;
+  color: #ffffff;
+}
+
+.job-status {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ccd4da;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.submit-data {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1f2937;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-data:disabled {
+  background-color: #9aa3ad;
+  cursor: not-allowed;
+}
